@@ -11,7 +11,7 @@ let currentX, currentY;
 
 
 function setup(){
-    createCanvas(floor(window.innerWidth*0.95), floor(window.innerHeight*0.95));
+    createCanvas(floor(window.innerWidth), floor(window.innerHeight));
     position = createVector(width/2, height/2);
     xInc = 0.01;
     yInc = 0.01;
